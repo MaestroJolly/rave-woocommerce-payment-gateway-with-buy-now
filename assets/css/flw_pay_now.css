@@ -1,0 +1,104 @@
+
+
+  .fan-display {
+    text-align: center;
+  }
+
+  .hide {
+      display: none;
+  }
+
+
+  .pay-group {
+    margin-bottom: 1rem;
+    padding-left: 3%;
+  }
+
+  .pay-info {
+    color: #fff;
+    background-color: #96588a;
+    border-color: #96588a;
+  }
+
+  .pay-info:hover {
+    color: #96588a;
+    background-color: #fff;
+    border-color: #96588a;
+  }
+  
+  
+  .pay-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  }
+  
+  
+  .pay-md-6 {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+  }
+
+  @media (min-width: 768px){
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .download-btn {
+    text-decoration: none;
+  }
+
+  .pay {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+  .pay-loader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .pay-md-12 {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+  }
+  
+  @media (min-width: 768px){
+    .pay-md-12 {
+      -webkit-box-flex: 0;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
