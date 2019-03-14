@@ -125,12 +125,12 @@ class Flw_Pay extends FLW_WC_Payment_Gateway {
           <div id="fan-modal-body">
              <form method="POST" action="" id="form" autocomplete="off">
                <div class="pay-group pay-md-12">
-                 <label for="cust-email">Email: </label>
+                 <label for="cust-email">Email: <span style="color: #ff0000;">*</span></label>
                  <input type="email" name="cust-email" class="pay-control" id="cust-email" required="required" placeholder="Enter your email">
                </div>
                <div class="pay-group pay-md-12">
                  <label for="cust-number">Phonenumber: </label>
-                 <input type="tel" name="phonenumber" class="pay-control" id="cust-number" required="required" placeholder="Enter your phone number">
+                 <input type="tel" name="phonenumber" class="pay-control" id="cust-number" placeholder="Enter your phone number">
                </div>
                <div class="pay-md-12">
                 <button type="submit" name="proceed" id="proceed" class="pay pay-info pay-lg" style="display: block; margin: auto">Proceed</button>

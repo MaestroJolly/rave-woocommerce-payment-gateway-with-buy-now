@@ -4,7 +4,7 @@
 Plugin Name: WooCommerce Rave Payment Gateway With Buy Now Option
 Plugin URI: https://rave.flutterwave.com/
 Description: WooCommerce payment gateway for Rave with buy now option for instant purchase of digital products.
-Version: 1.0.1
+Version: 1.0.2
 Author: Flutterwave Developers, Bosun Olanrewaju & Jolaoso Yusuf
 Author URI: http://twitter.com/theflutterwave
   License: MIT License
